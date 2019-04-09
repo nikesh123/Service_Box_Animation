@@ -1,0 +1,132 @@
+<html>
+<head>
+<style>
+body{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.container .box{
+position: relative;
+width: 350px;
+padding: 40px;
+background: #fff;
+box-shadow: 0 5px 15px rgba(0,0,0,.1)
+border-radius:4px;
+overflow: hidden;
+}
+.container .box .icon
+{
+position: relative;
+width: 80px;
+height: 80px;
+color: #fff;
+background: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0 auto;
+border-radius: 50%;
+font-size: 40px;
+font-weight: 700;
+transition: 0.5s;
+}
+.container .box:nth-child(1) .icon
+{
+box-shadow: 0 0 0 0 blue;
+background: blue;
+}
+.container .box:nth-child(1):hover .icon
+{
+box-shadow: 0 0 0 2000px blue;
+background: blue;
+}
+.container .box:nth-child(2) .icon
+{
+box-shadow: 0 0 0 0 green;
+background: green;
+}
+.container .box:nth-child(2):hover .icon
+{
+box-shadow: 0 0 0 2000px #00FF7F;
+background: green;
+}
+.container .box:nth-child(3) .icon
+{
+box-shadow: 0 0 0 0 yellow;
+background: yellow;
+}
+.container .box:nth-child(3):hover .icon
+{
+box-shadow: 0 0 0 2000px yellow;
+background: yellow;
+}
+.container .box .content
+{
+position: relative;
+z-index: 1;
+transition: 0.5s;
+}
+.container .box .content h3{
+font-size: 20px;
+margin: 10px 0;
+padding: 0;
+text-align: center;
+}
+a{
+display: inline-block;
+padding: 20px 40px;
+background: #fff;
+border-radius: 4px;
+color: #000;
+font-weight: 500;
+margin-top: 20px;
+margin-left: 4px;
+}
+</style>
+<body>
+<div class="container">
+<div class="box">
+<div class="icon"> 01</div>
+<div class="content">
+<h3>Service Name</h3>
+<p>
+is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+ 
+</p>
+<a href="#">Read More</a>
+</div>
+</div>
+
+<div class="box">
+<div class="icon"> 02</div>
+<div class="content">
+<h3>Service Name</h3>
+<p>
+is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+<a href="#">Read More</a>
+</div>
+</div>
+
+<div class="box">
+<div class="icon"> 03</div>
+<div class="content">
+<h3>Service Name</h3>
+<p>
+is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
+<a href="#">Read More</a>
+</div>
+</div>
+</div>
+
